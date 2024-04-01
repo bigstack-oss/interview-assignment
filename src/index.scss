@@ -1,0 +1,64 @@
+@use '@carbon/react';
+@use '@carbon/ibm-products/css/index';
+
+/*  
+Remove overrides once Carbon bugs are fixed upstream.
+Need grid option to not add page gutters at large viewports, to also use when nesting grids
+@link https://github.com/carbon-design-system/carbon/issues/2792
+*/
+@media (width >= 42rem) {
+  .cds--grid--no-gutter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* 
+Padding was introduced in 10.3.0, needs an option to let grid set the viewport gutter
+@link https://github.com/carbon-design-system/carbon/issues/3010
+*/
+.cds--content {
+  margin-top: 3rem;
+  height: calc(100vh - 3rem);
+  padding: 0;
+  background-color: var(--cds-layer-01, #f4f4f4);
+}
+
+.cube-create-config-wizard {
+  > .cds--modal-container {
+    width: 80% !important;
+    height: 80% !important;
+    margin: auto;
+  }
+
+  .c4p--tearsheet__buttons {
+    border-top: none;
+    .c4p--action-set__action-button--ghost {
+      margin-right: auto;
+      border-top: 1px solid var(--cds-border-subtle-01, #c6c6c6);
+      border-right: 1px solid var(--cds-border-subtle-01, #c6c6c6);
+    }
+    .c4p--action-set__action-button {
+      max-width: 14.5rem !important;
+    }
+  }
+}
+
+.cube-header-logo__divider {
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  height: 12px;
+  background-color: #6e778d;
+  margin-left: 0.5rem;
+}
+
+.cube--header-logo__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.cds--modal-content {
+  margin-bottom: 1rem;
+}

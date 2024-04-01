@@ -1,0 +1,56 @@
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"error","message":"fail"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"info","message":"success"}
+{"level":"info","message":"Successfully create empty folder 4165a4c862fc"}
+{"level":"info","message":"Successfully compress to cc-test.snapshot"}
+{"level":"info","message":"Successfully compress to 4165a4c862fc.zip"}
+{"level":"info","message":"Successfully create empty folder d73e23301a0c"}
+{"level":"info","message":"Successfully compress to cc-test.snapshot"}
+{"level":"info","message":"Successfully compress to cc-test2.snapshot"}
+{"level":"info","message":"Successfully compress to cc-test3.snapshot"}
+{"level":"info","message":"Successfully compress to d73e23301a0c.zip"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"error","message":"fail"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"info","message":"success"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"error","message":"fail"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"info","message":"success"}
+{"level":"info","message":"Successfully create empty folder 51a944757a06"}
+{"level":"info","message":"Successfully compress to cc-test.snapshot"}
+{"level":"info","message":"Successfully compress to 51a944757a06.zip"}
+{"level":"info","message":"Successfully create empty folder 7622542a3faa"}
+{"level":"info","message":"Successfully compress to cc-test.snapshot"}
+{"level":"info","message":"Successfully compress to cc-test2.snapshot"}
+{"level":"info","message":"Successfully compress to cc-test3.snapshot"}
+{"level":"info","message":"Successfully compress to 7622542a3faa.zip"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"error","message":"fail"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"info","message":"success"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"error","message":"fail"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"info","message":"success"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"error","message":"fail"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"info","message":"success"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"error","message":"fail"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"info","message":"success"}
+{"level":"info","message":"Successfully create empty folder 8117fc178c98"}
+{"level":"info","message":"Successfully compress to cc-test.snapshot"}
+{"level":"info","message":"Successfully compress to 8117fc178c98.zip"}
+{"level":"info","message":"Successfully create empty folder f3a84876b552"}
+{"level":"info","message":"Successfully compress to cc-test.snapshot"}
+{"level":"info","message":"Successfully compress to cc-test2.snapshot"}
+{"level":"info","message":"Successfully compress to cc-test3.snapshot"}
+{"level":"info","message":"Successfully compress to f3a84876b552.zip"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"error","message":"fail"}
+{"level":"error","message":"Error: spawnSync non-exist.sh ENOENT"}
+{"level":"info","message":"success"}
