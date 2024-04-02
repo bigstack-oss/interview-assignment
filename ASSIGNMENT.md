@@ -62,7 +62,7 @@ Render `/instances` endpoint response data in data table and have below columes
 - status 
 - overflow menu options (three dots in screenshot)
 
-**Hint:** use Carbon DataTable, Tag and carbon database icon
+> **Hint:** use Carbon DataTable, Tag and carbon database icon
 
 **1) Overflow Menu (UI Only)**
 
@@ -70,7 +70,7 @@ When the user clicks the `...` button in the end of a row, an overflow menu shou
 
 ![Overflow Menu](/docs/it-overflow.png)
 
-**Hint:** use Carbon OverflowMenu, OverflowMenuItem
+> **Hint:** use Carbon OverflowMenu, OverflowMenuItem
 
 **2) Edit Tags Modal**
 
@@ -79,9 +79,12 @@ When the user clicks `Add..` under the `Tags` column, a modal should appear with
 ![Tag edit modal](/docs/it-tags.png)
 Tag editor modal
 
-**Hint:** use Carbon Modal, Button, inputBox, Tag
+> **Hint:** use Carbon Modal, Button, inputBox, Tag
 
 If the user adds one or more tags, they should appear in the table:
+
+![Adding multiple tags](/docs/it-tags-multiple.png)
+Adding multiple tags at once
 
 ![Instance with tag](/docs/it-with-tag.png)
 Instance with tag
