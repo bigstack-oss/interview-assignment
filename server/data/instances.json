@@ -1,0 +1,378 @@
+[
+  {
+    "_id": "6608829e7cf7966bf987148c",
+    "id": "6df050b1-0b0d-4d59-b920-9e7e6997150f",
+    "key_name": "bigstack-james-devbox2",
+    "provider": {
+      "name": "cube",
+      "region": "local"
+    },
+    "status": "active",
+    "domainType": "default",
+    "project": "PROJJAMES",
+    "user": "bigstack",
+    "remote_ip": "122.116.23.116",
+    "name": "instance-zjk6wi",
+    "volumes": [],
+    "image": "Ubuntu 20.04(LTS) x64",
+    "imageSize": 40,
+    "imageId": "80194988-90c9-4806-a15c-a239370d410f",
+    "instanceType": {
+      "displayname": "micro",
+      "name": "basic.micro",
+      "vcpu": 1,
+      "memory": 1,
+      "disk": 40,
+      "gpu": 0,
+      "memory_per_gpu": 0
+    },
+    "flavor": "basic.micro",
+    "network": {
+      "name": "private",
+      "cidr": "192.168.0.0/24",
+      "tags": [
+        {
+          "tagText": "Default"
+        }
+      ]
+    },
+    "tags": [],
+    "password": "",
+    "sudoPasswdEnabled": false,
+    "userdataScript": "",
+    "cidr": "192.168.0.0/24",
+    "instance_id": "1ec00729-c742-4703-a605-2a8012a3f802",
+    "interface_ip": "192.168.0.225",
+    "launched_at": "2024-03-30T21:23:10.000000",
+    "power_state": 1,
+    "vm_state": "active",
+    "expiresAt": null
+  },
+  {
+    "_id": "6609c82e7e263a6d1e8c24f9",
+    "id": "f1bdec5d-b769-4f6e-aad8-c80ef13b0048",
+    "key_name": "",
+    "provider": {
+      "name": "cube",
+      "region": "local"
+    },
+    "status": "expired",
+    "domainType": "default",
+    "project": "PROJJAMES",
+    "user": "user1",
+    "remote_ip": "122.116.23.116",
+    "name": "instance-my1ltw",
+    "volumes": [],
+    "image": "Ubuntu 20.04(LTS) x64",
+    "imageSize": 40,
+    "imageId": "80194988-90c9-4806-a15c-a239370d410f",
+    "instanceType": {
+      "displayname": "micro",
+      "name": "basic.micro",
+      "vcpu": 1,
+      "memory": 1,
+      "disk": 40,
+      "gpu": 0,
+      "memory_per_gpu": 0
+    },
+    "flavor": "basic.micro",
+    "network": {
+      "name": "private",
+      "cidr": "192.168.0.0/24",
+      "tags": [
+        {
+          "tagText": "Default"
+        }
+      ]
+    },
+    "tags": [],
+    "sudoPasswdEnabled": false,
+    "userdataScript": "",
+    "expiresAt": "2024-04-01T20:31:40.608Z",
+    "approval": {
+      "justification": "",
+      "expiresAt": "2024-04-01T20:31:40.608Z",
+      "status": "approved",
+      "submittedAt": "2024-03-31T20:31:42.330Z",
+      "requestType": "create",
+      "resourceType": "instance",
+      "updatedAt": "2024-03-31T20:32:09.272Z"
+    },
+    "cidr": "192.168.0.0/24",
+    "instance_id": "4e5b6fa6-3e3b-4120-a6bd-98652a1fb18a",
+    "expiringNotified": true,
+    "power_state": 4,
+    "vm_state": "suspended",
+    "interface_ip": "192.168.0.206",
+    "launched_at": "2024-03-31T20:32:41.000000"
+  },
+  {
+    "_id": "660a0b807e263a6d1e8c24fc",
+    "id": "6c9de607-d6d1-46fd-847c-7d265a7466f4",
+    "key_name": "",
+    "provider": {
+      "name": "cube",
+      "region": "local"
+    },
+    "status": "canceled",
+    "domainType": "default",
+    "project": "PROJJAMES",
+    "user": "user1",
+    "remote_ip": "122.116.23.116",
+    "name": "instance-0mg9zt-1",
+    "volumes": [],
+    "image": "Ubuntu 20.04(LTS) x64",
+    "imageSize": 40,
+    "imageId": "80194988-90c9-4806-a15c-a239370d410f",
+    "instanceType": {
+      "displayname": "micro",
+      "name": "basic.micro",
+      "vcpu": 1,
+      "memory": 1,
+      "disk": 40,
+      "gpu": 0,
+      "memory_per_gpu": 0
+    },
+    "flavor": "basic.micro",
+    "network": {
+      "name": "private",
+      "cidr": "192.168.0.0/24",
+      "tags": [
+        {
+          "tagText": "Default"
+        }
+      ]
+    },
+    "tags": [
+      "tag1"
+    ],
+    "sudoPasswdEnabled": false,
+    "userdataScript": "",
+    "approval": {
+      "justification": "",
+      "expiresAt": null,
+      "status": "canceled",
+      "submittedAt": "2024-04-01T01:18:56.038Z",
+      "requestType": "create",
+      "resourceType": "instance",
+      "updatedAt": "2024-04-01T01:21:32.952Z"
+    },
+    "expiresAt": null
+  },
+  {
+    "_id": "660a0b807e263a6d1e8c24fe",
+    "id": "d6e25101-6ce2-48bc-a599-5da4b4760186",
+    "key_name": "",
+    "provider": {
+      "name": "cube",
+      "region": "local"
+    },
+    "status": "canceled",
+    "domainType": "default",
+    "project": "PROJJAMES",
+    "user": "user1",
+    "remote_ip": "122.116.23.116",
+    "name": "instance-0mg9zt-2",
+    "volumes": [],
+    "image": "Ubuntu 20.04(LTS) x64",
+    "imageSize": 40,
+    "imageId": "80194988-90c9-4806-a15c-a239370d410f",
+    "instanceType": {
+      "displayname": "micro",
+      "name": "basic.micro",
+      "vcpu": 1,
+      "memory": 1,
+      "disk": 40,
+      "gpu": 0,
+      "memory_per_gpu": 0
+    },
+    "flavor": "basic.micro",
+    "network": {
+      "name": "private",
+      "cidr": "192.168.0.0/24",
+      "tags": [
+        {
+          "tagText": "Default"
+        }
+      ]
+    },
+    "tags": [],
+    "sudoPasswdEnabled": false,
+    "userdataScript": "",
+    "approval": {
+      "justification": "",
+      "expiresAt": null,
+      "status": "canceled",
+      "submittedAt": "2024-04-01T01:18:56.056Z",
+      "requestType": "create",
+      "resourceType": "instance",
+      "updatedAt": "2024-04-01T01:21:34.464Z"
+    },
+    "expiresAt": null
+  },
+  {
+    "_id": "660a0b807e263a6d1e8c2500",
+    "id": "098e7fa4-115e-4957-851f-3ab5f07362ac",
+    "key_name": "",
+    "provider": {
+      "name": "cube",
+      "region": "local"
+    },
+    "status": "rejected",
+    "domainType": "default",
+    "project": "PROJJAMES",
+    "user": "user1",
+    "remote_ip": "122.116.23.116",
+    "name": "instance-0mg9zt-3",
+    "volumes": [],
+    "image": "Ubuntu 20.04(LTS) x64",
+    "imageSize": 40,
+    "imageId": "80194988-90c9-4806-a15c-a239370d410f",
+    "instanceType": {
+      "displayname": "micro",
+      "name": "basic.micro",
+      "vcpu": 1,
+      "memory": 1,
+      "disk": 40,
+      "gpu": 0,
+      "memory_per_gpu": 0
+    },
+    "flavor": "basic.micro",
+    "network": {
+      "name": "private",
+      "cidr": "192.168.0.0/24",
+      "tags": [
+        {
+          "tagText": "Default"
+        }
+      ]
+    },
+    "tags": [],
+    "sudoPasswdEnabled": false,
+    "userdataScript": "",
+    "approval": {
+      "justification": "",
+      "expiresAt": null,
+      "status": "rejected",
+      "submittedAt": "2024-04-01T01:18:56.080Z",
+      "requestType": "create",
+      "resourceType": "instance",
+      "updatedAt": "2024-04-01T01:21:11.478Z"
+    },
+    "expiresAt": null
+  },
+  {
+    "_id": "660a0e367e263a6d1e8c2513",
+    "id": "d09621ab-48f0-45bd-9fc0-819a090756f8",
+    "key_name": "",
+    "provider": {
+      "name": "cube",
+      "region": "local"
+    },
+    "status": "active",
+    "domainType": "default",
+    "project": "PROJJAMES",
+    "user": "user1",
+    "remote_ip": "122.116.23.116",
+    "name": "instance-23ag2h",
+    "volumes": [],
+    "image": "Ubuntu 20.04(LTS) x64",
+    "imageSize": 40,
+    "imageId": "80194988-90c9-4806-a15c-a239370d410f",
+    "instanceType": {
+      "displayname": "micro",
+      "name": "basic.micro",
+      "vcpu": 1,
+      "memory": 1,
+      "disk": 40,
+      "gpu": 0,
+      "memory_per_gpu": 0
+    },
+    "flavor": "basic.micro",
+    "network": {
+      "name": "private",
+      "cidr": "192.168.0.0/24",
+      "tags": [
+        {
+          "tagText": "Default"
+        }
+      ]
+    },
+    "tags": [],
+    "sudoPasswdEnabled": false,
+    "userdataScript": "",
+    "approval": {
+      "justification": "",
+      "expiresAt": null,
+      "status": "approved",
+      "submittedAt": "2024-04-01T01:30:30.617Z",
+      "requestType": "create",
+      "resourceType": "instance",
+      "updatedAt": "2024-04-01T01:31:30.738Z"
+    },
+    "cidr": "192.168.0.0/24",
+    "instance_id": "f7a86d0a-bb85-4b1b-81f6-3cedbbd4ea65",
+    "interface_ip": "192.168.0.80",
+    "launched_at": "2024-04-01T01:32:05.000000",
+    "power_state": 1,
+    "vm_state": "active",
+    "expiresAt": null
+  },
+  {
+    "_id": "660a0e9e7e263a6d1e8c2516",
+    "id": "abda0391-4660-48ab-a203-125a063f228c",
+    "key_name": "",
+    "provider": {
+      "name": "cube",
+      "region": "local"
+    },
+    "status": "stopped",
+    "domainType": "default",
+    "project": "PROJJAMES",
+    "user": "user1",
+    "remote_ip": "122.116.23.116",
+    "name": "instance-xqd7qn",
+    "volumes": [],
+    "image": "Ubuntu 20.04(LTS) x64",
+    "imageSize": 40,
+    "imageId": "80194988-90c9-4806-a15c-a239370d410f",
+    "instanceType": {
+      "displayname": "micro",
+      "name": "basic.micro",
+      "vcpu": 1,
+      "memory": 1,
+      "disk": 40,
+      "gpu": 0,
+      "memory_per_gpu": 0
+    },
+    "flavor": "basic.micro",
+    "network": {
+      "name": "private",
+      "cidr": "192.168.0.0/24",
+      "tags": [
+        {
+          "tagText": "Default"
+        }
+      ]
+    },
+    "tags": [],
+    "sudoPasswdEnabled": false,
+    "userdataScript": "",
+    "approval": {
+      "justification": "",
+      "expiresAt": null,
+      "status": "approved",
+      "submittedAt": "2024-04-01T01:32:14.524Z",
+      "requestType": "create",
+      "resourceType": "instance",
+      "updatedAt": "2024-04-01T01:32:35.931Z"
+    },
+    "cidr": "192.168.0.0/24",
+    "instance_id": "d6aa9504-7f56-4647-af4c-2e0d82b3f678",
+    "interface_ip": "192.168.0.183",
+    "launched_at": "2024-04-01T01:33:10.000000",
+    "power_state": 4,
+    "vm_state": "stopped",
+    "expiresAt": null
+  }
+]
