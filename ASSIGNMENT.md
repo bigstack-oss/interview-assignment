@@ -1,4 +1,4 @@
-# Assignment (WIP)
+# Assignment
 
 ![Instance Table](/docs/it-1.png)
 CMP Instances Table
