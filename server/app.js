@@ -3,15 +3,13 @@ const cors = require('cors');
 const chalk = require('chalk');
 const { errorHandler, notFoundHandler } = require('./middleware');
 const { isDev } = require('../utils');
-const { PORT } = require('./utils');
+const { PORT } = require('./routers/utils');
 const router = require('./routers');
 
 const app = express();
 
 app.use(cors());
-
 app.use('/instances', router);
-
 app.use(notFoundHandler());
 app.use(errorHandler());
 

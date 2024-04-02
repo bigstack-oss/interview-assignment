@@ -10,14 +10,16 @@ const App = () => {
     function getData() {
       fetch('http://localhost:9080/instances')
         .then(res => {
-          if (res.ok) {
-            return res.json();
-          } else {
-            console.error(res.status);
+          if (!res.ok) {
+            throw new Error('/instances endpoint response error');
           }
+          return res.json();
         })
         .then(data => {
-          console.log(data);
+          console.log('data:', data);
+        })
+        .catch(error => {
+          console.error('Error:', error);
         });
     }
 
