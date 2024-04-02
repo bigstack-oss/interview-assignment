@@ -39,16 +39,9 @@ or
 $ yarn lint:fix
 ```
 
-### Environment Variables
+## Assignment 
+Read [ASSIGNMENT.md](./ASSIGNMENT.md) to get more about assignment details. 
 
-`env` and `dotenv-expand` packages are used in conjunction with `webpack.DefinePlugin` plugin for managing environment variables. 
-
-The entire logic can be found in `./env.config.js` file. The .env file is named and loaded based on the defined `process.env.NODE_ENV` value:
-
-| File name          | NODE_ENV    | In Source Control |
-| ------------------ | ----------- | :---------------: |
-| `.env.development` | development |        Yes        |
-| `.env`             | production  |        Yes        |
 
 ## License
 

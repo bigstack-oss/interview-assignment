@@ -6,7 +6,7 @@ const { transformOnInterval } = require('../utils');
 
 const filePath = path.join(__dirname, '..', 'data', 'instances.json');
 
-router.get('/', (req, res) => {
+router.get('/', (_req, res) => {
   fs.readFile(filePath, 'utf-8', (err, data) => {
     if (err) {
       console.error(err);
@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
     }
 
     const result = transformOnInterval(data);
-    res.json(result);
+    res.status(200).json(result);
   });
 });
 

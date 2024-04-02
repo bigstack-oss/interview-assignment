@@ -12,7 +12,12 @@ const twentySecondsInterval = () => {
 };
 
 const transformOnInterval = data => {
-  const json = JSON.parse(data);
+  let json = [];
+  try {
+    json = JSON.parse(data);
+  } catch (e) {
+    console.log('error to parse json data', e);
+  }
   const shouldTransform = twentySecondsInterval();
   if (!shouldTransform) return json;
   return json.map(i => {
