@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserJSPlugin = require('terser-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const CompressionWebpackPlugin = require('compression-webpack-plugin');
 const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const path = require('path');
@@ -220,7 +219,6 @@ const webpackConfig = {
     port: devServerPort,
     host: 'localhost',
     stats: 'minimal',
-    compress: true,
     hot: true,
     open: true,
     historyApiFallback: true,
@@ -236,7 +234,6 @@ const webpackConfig = {
 if (!isDev) {
   webpackConfig.plugins = [
     ...webpackConfig.plugins,
-    new CompressionWebpackPlugin(),
     new BundleAnalyzerPlugin({
       analyzerMode: isAnalyze ? 'server' : 'disabled',
       openAnalyzer: isAnalyze
