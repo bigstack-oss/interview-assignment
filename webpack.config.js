@@ -42,7 +42,8 @@ const getStyleLoaders = (cssLoaderOptions = {}) => {
             autoprefixer({
               grid: false,
               flexbox: 'no-2009'
-            })
+            }),
+            ['postcss-preset-env', {}]
           ]
         }
       }
