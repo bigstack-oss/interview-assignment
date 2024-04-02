@@ -1,12 +1,10 @@
 <h1>Cube Interview Assignment</h1>
 
-Cube Interview Assignment
+Cube Interview Assignment details can be found [here](/ASSIGNMENT.md).
 
-- is built in ReactJS with [@carbon/react](https://carbondesignsystem.com/developing/frameworks/react/) UI toolkit. 
-  - refer [@carbon/react component storybook](https://react.carbondesignsystem.com/?path=/story/components-tile--default) for more details.
-- use Express framework as web server and also for APIs development.
+## Setup
 
-## Requirement
+## Setup
 
 Please make sure your development env has met the following requirements before you start:
 
