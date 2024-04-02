@@ -1,8 +1,6 @@
 <h1>Cube Interview Assignment</h1>
 
-Cube Interview Assignment details can be found [here](/ASSIGNMENT.md).
-
-## Setup
+Cube Interview Assignment details can be found in [ASSIGNMENT.md](/ASSIGNMENT.md).
 
 ## Setup
 
@@ -38,10 +36,6 @@ $ yarn lint
 or 
 $ yarn lint:fix
 ```
-
-## Assignment 
-Read [ASSIGNMENT.md](./ASSIGNMENT.md) to get more about assignment details. 
-
 
 ## License
 

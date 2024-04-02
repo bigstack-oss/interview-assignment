@@ -1,6 +1,6 @@
 # Assignment
 
-Cube Cloud Management Platform (Cube CMP) Instances Table
+Cube Cloud Management Platform (CMP) Instances Table
 
 ![Instance Table](/docs/it-1.png)
 
@@ -17,9 +17,9 @@ You should make your submission within **1 week** from when you receive the assi
 
 Screenshots of the table ui are in the `docs` directory of this project. Follow the designs as closely as possible. The UI does NOT need to be responsive for mobile/tablet devices. But it should gracefully handle small and large desktop screen sizes.
 
-**UI Library**
+### UI Library
 
-You are expected to use the Carbon React components library to complete this project: 
+You are expected to use the Carbon React components library to complete this assignment: 
 
 - [@carbon/react](https://www.npmjs.com/package/@carbon/react)
 - [@carbon/icon](https://www.npmjs.com/package/@carbon/icons-react)
@@ -30,7 +30,7 @@ You should use the `DataTable` component to implement the table. You may impleme
 
 We intentionally have **not** provided a figma document, so you will need to make some UI/UX decisions on your own. Use your experience and best judgment.
 
-**Data Fetching**
+### Data Fetching
 
 There is a simple express server setup in this repository, with one endpoint `/instances`. 
 
@@ -62,7 +62,7 @@ Render `/instances` endpoint response data in data table and have below columes
 - status 
 - overflow menu options (three dots in screenshot)
 
-**Hint: use Carbon DataTable, Tag and carbon database icon**
+**Hint:** use Carbon DataTable, Tag and carbon database icon
 
 **1) Overflow Menu (UI Only)**
 
@@ -70,7 +70,7 @@ When the user clicks the `...` button in the end of a row, an overflow menu shou
 
 ![Overflow Menu](/docs/it-overflow.png)
 
-**Hint: use Carbon OverflowMenu, OverflowMenuItem**
+**Hint:** use Carbon OverflowMenu, OverflowMenuItem
 
 **2) Edit Tags Modal**
 
@@ -79,7 +79,7 @@ When the user clicks `Add..` under the `Tags` column, a modal should appear with
 ![Tag edit modal](/docs/it-tags.png)
 Tag editor modal
 
-**Hint: use Carbon Modal, Button, inputBox, Tag**
+**Hint:** use Carbon Modal, Button, inputBox, Tag
 
 If the user adds one or more tags, they should appear in the table:
 
