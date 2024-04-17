@@ -9,7 +9,7 @@ Cube Cloud Management Platform (CMP) Instances Table
 
 Re-create the "Instances" table using ReactJS from the provided designs, using the mock API data provided.
 
-To make your submission, fork this repository and submit a pull request with your code.
+To make your submission, fork this repository, commit your own changes to your fork and send us a link to your forked repository.
 
 You should make your submission within **1 week** from when you receive the assignment. 
 
